@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Vanshita's Fitclub</title>
+    </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+body{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 1000;
+    margin: 0px;
+    padding: 0px;
+    background: url(Screenshot\ \(8\).png);
+    background-size: cover;
+    
+}
+.left{
+    position: absolute;
+    left: 60px;
+    top: 18px;
+    display: inline-block;
+   /* border: 2px solid blue;*/
+}
+.left img{
+    width: 100px;
+}
+.mid{
+    display: block;
+    color: blue;
+    width: 50%;
+    margin: 18px auto;
+    /*border: 2px solid wheat;*/
+}
+.right{
+    position: absolute;
+    right: 38px;
+    top: 18px;
+    display: inline-block;
+    /*border: 2px solid blue;*/
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active{
+   text-decoration: underline;
+   color: rgb(5, 1, 66) ;
+   
+}
+.btn{
+    font-family: 'Nunito', sans-serif;
+    margin: 0px 9px;
+    padding : 5px 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(161, 161, 255);
+}
+.container{
+    font-family: 'Nunito', sans-serif;
+   /* border: 2px solid blue;*/
+    margin: 135px 440px;
+    padding: 22px 70px;
+    width: 28%;
+    border-radius: 20px
+}
+.form-group input{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    display: block;
+    width: 272px;
+    padding: 4px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 6px auto;
+}
+.container button{
+    display: block;
+    margin: 4px 166px;
+    padding: 5px 13px;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.container h1{
+    text-align: center;
+}
+    </style>
+    <body>
+<header class="header">
+    <div class="left">
+        <img src="Untitled design.png" alt="">
+        <div>Vanshita's Fitclub</div>
+   
+    </div>
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href ="#" class="active"><b>Home</b></a></li>
+            <li><a href ="#">About us</a></li>
+            <li><a href ="#">Gallery</a></li>
+            <li><a href ="#">Contact us</a></li>
+        </ul>
+    </div>
+    <div class="right">
+        <button class="btn">Call us now</button>
+        <button class="btn">Email us</button>
+    </div>
+</header>
+<div class="container">
+    <h1>
+        JOIN THE BEST GYM
+    </h1>
+    <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter your name">
+        </div>
+        <div class="form-group">
+            <input type="text" age="" placeholder="enter your age">
+        </div>
+        <div class="form-group">
+            <input type="text" gender="" placeholder="enter your gender">
+        </div>
+        <div class="form-group">
+            <input type="text" locality="" placeholder="enter your locality">
+        </div>
+        <button class="btn">Submit</button>
+    </form>
+</div>
+    </body>
+</html>
